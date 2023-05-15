@@ -7,7 +7,7 @@
 *.dll
 *.so
 *.dylib
-
+2048-darwin-amd64
 # Test binary, built with `go test -c`
 *.test
 
