@@ -24,7 +24,7 @@ func Start_game(board [][]int) {
 		Generate(board)
 	} // generate 2 number in random place
 	result := true
-	for result || !find_2048(board) {
+	for result && !find_2048(board) {
 		Display(board)
 		result = Read_input(board)
 	}
