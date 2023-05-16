@@ -8,6 +8,8 @@
 *.so
 *.dylib
 2048-darwin-amd64
+2048-windows-amd64.exe
+2048-windows-i386.exe
 # Test binary, built with `go test -c`
 *.test
 
